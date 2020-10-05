@@ -7,11 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonScripts", "CommonScri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamplesScripts", "SamplesScripts.csproj", "{F5CD2F5C-09A6-CEC0-9C52-6AB8E60BAE58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditorMigrationScripts", "EditorMigrationScripts.csproj", "{CA58B1EC-9633-0768-CA80-AC81018F7AC6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonEditor", "CommonEditor.csproj", "{383350A0-AA31-270A-80F7-C5F0A0B04D5E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VuforiaVersionCheckerScripts", "VuforiaVersionCheckerScripts.csproj", "{522D2CD5-5ED3-F0E4-A893-0C2110BA69F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditorMigrationScripts", "EditorMigrationScripts.csproj", "{CA58B1EC-9633-0768-CA80-AC81018F7AC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,10 +31,6 @@ Global
 		{F5CD2F5C-09A6-CEC0-9C52-6AB8E60BAE58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5CD2F5C-09A6-CEC0-9C52-6AB8E60BAE58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5CD2F5C-09A6-CEC0-9C52-6AB8E60BAE58}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CA58B1EC-9633-0768-CA80-AC81018F7AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CA58B1EC-9633-0768-CA80-AC81018F7AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CA58B1EC-9633-0768-CA80-AC81018F7AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CA58B1EC-9633-0768-CA80-AC81018F7AC6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{383350A0-AA31-270A-80F7-C5F0A0B04D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{383350A0-AA31-270A-80F7-C5F0A0B04D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{383350A0-AA31-270A-80F7-C5F0A0B04D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -43,6 +39,10 @@ Global
 		{522D2CD5-5ED3-F0E4-A893-0C2110BA69F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{522D2CD5-5ED3-F0E4-A893-0C2110BA69F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{522D2CD5-5ED3-F0E4-A893-0C2110BA69F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA58B1EC-9633-0768-CA80-AC81018F7AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA58B1EC-9633-0768-CA80-AC81018F7AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA58B1EC-9633-0768-CA80-AC81018F7AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA58B1EC-9633-0768-CA80-AC81018F7AC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

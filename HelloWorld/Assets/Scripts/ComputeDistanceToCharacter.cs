@@ -6,23 +6,25 @@ public class ComputeDistanceToCharacter : MonoBehaviour
 {
     public GameObject PlayerObject;
 
-    private Animator cactusAnimator;
+    private Animator targetAnimator;
     private float distanceFromPlayer;
 
     // Start is called before the first frame update
     private void Start()
     {
-        cactusAnimator = GetComponent<Animator>();
+        targetAnimator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     private void Update()
     {
-        UpdateCactusAnimatorParams();
+        UpdateTargetAnimatorParams();
     }
 
-    private void UpdateCactusAnimatorParams() {
+    private void UpdateTargetAnimatorParams() {
         distanceFromPlayer = Vector3.Distance(transform.position, PlayerObject.transform.position);
-        cactusAnimator.SetFloat("DistanceFromPlayer", distanceFromPlayer);
+        targetAnimator.SetFloat("DistanceFromPlayer", distanceFromPlayer);
+        
+        Debug.Log(distanceFromPlayer);
     }
 }
