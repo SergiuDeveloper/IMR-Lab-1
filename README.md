@@ -11,7 +11,7 @@ https://ibb.co/HgJfwgM \
 https://ibb.co/J2dMyWB \
 https://ibb.co/yn46vH6 \
 https://ibb.co/TBk7Rdh \
-https://ibb.co/YpXbmhK \
+https://ibb.co/YpXbmhK
 
 Aplicatia implica un model 3D de astronaut care este instantiat in momentul in care camera surprinde o anume poza.\
 By default, modelul de astronaut se afla in animatia de "idle".\
